@@ -48,7 +48,7 @@ public class JavaTest {
 		 * 
 		 *  Java API DOC == 자바가 만들어서 제공하는 코드에 대한 설명 문서
 		 * */
-
 	}
+	
 	
 }
