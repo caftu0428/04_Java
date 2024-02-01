@@ -96,7 +96,7 @@ public class Account {
 			return; // 메서드 종료 -> 호출한 곳으로
 			
 		}
-		// 출금
+		// 출금할 금액이 잔액보다 큰 경우
 		if(amount > balance) {
 			System.out.println("잔액 부족");
 			return;
