@@ -16,10 +16,10 @@ public class Account {
 	
 	// 속성(값)
 	
-	private String name;					// 이름(예금주)
-	private String accountNumber; // 계좌 번호
-	private long 	 balance;				// 잔액
-	private String password; 			// 비밀번호
+	private String name;					 // 이름(예금주)
+	private String accountNumber;  // 계좌 번호
+	private long 	 balance;				 // 잔액
+	private String password; 			 // 비밀번호
 	
 	// * 매개 변수 : 전달 받아온 값을 저장하는 변수*
 	
