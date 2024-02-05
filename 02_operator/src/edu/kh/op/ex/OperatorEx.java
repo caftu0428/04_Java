@@ -4,14 +4,14 @@ import java.util.Scanner; // Scanner. 클래스(설계도) 가져오기
 
 
 /**
- *  기능용(예제)	클래스
- */
+ * 기능용(예제) 클래스	
+ */                      	
 public class OperatorEx {
-
-	// 메서드(기능) 호출 테스트
-	public void test() {
+						
+	// 메서드(기능) 호출 테스트 
+	public void test() {	
 		System.out.println("다른 클래스에 작성된 기능");
-	}
+	}	
 	
 	/**
 	 * 입력 받은 정수가 3의 배수가 맞는지
