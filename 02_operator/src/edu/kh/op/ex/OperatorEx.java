@@ -13,9 +13,9 @@ public class OperatorEx {
 		System.out.println("다른 클래스에 작성된 기능");
 	}
 	
-	/*
-	 *  입력 받은 정수가 3의 배수가 맞는지
-	 *  */
+	/**
+	 * 입력 받은 정수가 3의 배수가 맞는지
+	 */
 	public void method1() {
 		
 		// Scanner 객체 생성
@@ -30,7 +30,7 @@ public class OperatorEx {
 	System.out.printf("%d는 3의 배수 : %b", input, isTrue );
 	}
 	
-	/*
+	/**
 	 * 첫 번째 입력 받은 수가 두 번째 
 	 * 입력 받은 수의 배수가 맞는지 확인
 	 */
@@ -51,13 +51,13 @@ public class OperatorEx {
 		
 	}
 	
-	/* 
+	/**
 	 * 입력 받은 정수가 짝수인지 홀수인지 판별 
 	 * <pre>
 	 * 정수입력	: {입력값}
 	 * {입력값}은 홀수/ 짝수입니다.
 	 * </pre>
-	 * */
+	 */
 	
 	public void method3() {
 		
@@ -76,7 +76,7 @@ public class OperatorEx {
 		System.out.printf("%d은/는 %s 입니다.", input, result);
 	}
 	
-	/*
+	/**
 	 * 
 	 *  [홀짝 검사기 v2] 
 	 *  <p>입력 받은 정수가 홀수 또는 짝수 또는 0 인지 판별</p>
@@ -91,7 +91,7 @@ public class OperatorEx {
 	 *  정수 입력 : 7
 	 *  홀수 입니다.
 	 *  </pre>
-	 *  */
+	 */
 	
 	public void method4() {
 		
