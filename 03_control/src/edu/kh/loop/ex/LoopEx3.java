@@ -20,7 +20,7 @@ public class LoopEx3 {
 			String str = "Hello world!!!!";
 			
 //			int length = str.length(); // 미리 문자열의 길이를 카운트하여 저장
-																							// -> str.length() 구문을 재 호출할 필요가 없어짐	
+																	 // -> str.length() 구문을 재 호출할 필요가 없어짐	
 			
 			// 초기식, 증감식은 여러 개 선언 가능하다
 			for(int i=0, length = str.length() ; i < length ; i++)	 {
@@ -31,10 +31,7 @@ public class LoopEx3 {
 		}
 		
 		// while(조건식) : 끝이 확실하지 않은 반복에 사용
-		
-		
-		
-		
+			
 		/**
 		 * - 1 이 입력될 때 까지 정수를 계속 입력 받아
 		 * 입력 받은 수의 합계를 구하기

@@ -35,16 +35,17 @@ public class LoopEx2 {
 	 * 
 	 * 4321
 	 * 4321
+	 * 
 	 * </pre>
 	 */
 	public void method2() {
 		
 		for(int x=2 ; x >=1 ; x--) { // 2번 반복
 			
-					for(int i=4 ; i >=1; i-- ) { // 4321 출력
-			System.out.print(i);
+			 for(int i=4 ; i >=1; i-- ) { // 4321 출력
+				 System.out.print(i);
 		}
-				System.out.println();
+			 System.out.println();
 		}
 	}
 		
@@ -62,8 +63,8 @@ public class LoopEx2 {
 			
 			for(int x=0 ; x<3 ; x++) { // (행)세로 0,1,2
 				
-							for(int i=0 ; i<3 ; i++) { // (열)가로 0,1,2
-				System.out.printf("(%d,%d)", x, i);
+					for(int i=0 ; i<3 ; i++) { // (열)가로 0,1,2
+						System.out.printf("(%d,%d)", x, i);
 				 }
 					System.out.println(); // 줄바꿈
 			}	
@@ -79,13 +80,13 @@ public class LoopEx2 {
 		 */
 		public void method4() {
 			
-								for(int x=2 ; x>=0 ; x--) { // (행)세로 2,1,0
+			for(int x=2 ; x>=0 ; x--) { // (행)세로 2,1,0
 									
-									for(int i=2 ; i>=0 ; i--) { // (열)가로 2,1,0
+					for(int i=2 ; i>=0 ; i--) { // (열)가로 2,1,0
 						System.out.printf("(%d,%d)", x, i);
-						 }
-							System.out.println(); // 줄바꿈
-					}		
+				}
+					System.out.println(); // 줄바꿈
+			}		
 		}
 		
 		
@@ -101,13 +102,15 @@ public class LoopEx2 {
 			
 			for(int x=2 ; x<=9; x++) { // 행(==단, 2~9)
 				
-								for(int i=1 ; i <=9; i++) { // 열(== 곱해지는 수, 1~9)
-					System.out.printf(" %d x %d = %2d ",x,i, x*i);
+					for(int i=1 ; i <=9; i++) { // 열(== 곱해지는 수, 1~9)
+						System.out.printf(" %d x %d = %2d ",x,i, x*i);
 				}
-						System.out.println(); // 줄바꿈
+					System.out.println(); // 줄바꿈
 			}
 			
 		}
+		
+		
 		
 		/** <pre>
 		 * 입력 받은 단 부터 9단 까지 구국단 출력하기
@@ -138,21 +141,21 @@ public class LoopEx2 {
 				System.out.println("잘못 입력했습니다.");
 				return;
 			}
-						for(int x=dan ; x<=9; x++) { // 행(==단, 2~9)
-							System.out.printf("======%d단========= \n", x);
+				for(int x=dan ; x<=9; x++) { // 행(==단, 2~9)
+						System.out.printf("======%d단========= \n", x);
 							
-							for(int i=1 ; i <=9; i++) { // 열(== 곱해지는 수, 1~9)
-				System.out.printf(" %d x %d = %2d \n",x,i, x*i);
+						for(int i=1 ; i <=9; i++) { // 열(== 곱해지는 수, 1~9)
+							System.out.printf(" %d x %d = %2d \n",x,i, x*i);
 				}
-						System.out.println(); // 줄바꿈
-				}
+				System.out.println(); // 줄바꿈
+			}
 		}
 		
 		/**<pre>
 		 * 1 2 3
-		 *  4 5 6
-		 *  7 8 9
-		 *  </pre>
+		 * 4 5 6
+		 * 7 8 9
+		 *</pre>
 		 */
 		public void method7() {
 			
@@ -161,7 +164,6 @@ public class LoopEx2 {
 			for(int row = 0 ; row < 3 ; row ++) { // 3행 반복
 				
 				for(int col = 0 ; col < 3 ; col++) { // 3 열 반복
-					
 					System.out.print(count++ + " ");
 				}
 				System.out.println(); // 줄 바꿈
@@ -179,7 +181,6 @@ public class LoopEx2 {
 			for(int row = 0 ; row < 4 ; row ++) { // 4행
 				
 				for(int col = 4 ; col > 0 ; col --) { // 4 열
-					
 					System.out.print("#");
 				}
 				System.out.println(); // 줄 바꿈
@@ -222,12 +223,5 @@ public class LoopEx2 {
 				System.out.println(); // 줄바꿈
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+
 }
