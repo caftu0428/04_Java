@@ -46,7 +46,7 @@ public class Dog extends Animal {
 
 	@Override
 	public String toString() {
-		return super.toString() + "/ 가슴줄 유무 : " + harness;
+		return super.toString() + " / 가슴줄 유무 : " + harness;
 	}
 	
 	
