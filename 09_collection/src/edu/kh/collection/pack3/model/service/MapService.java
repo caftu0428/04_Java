@@ -101,7 +101,7 @@ public class MapService {
 		System.out.println("keyset : " + set);
 		
 		// 향상된 for문 + Set
-		for(String key  : set) {
+		for(String key : set) {
 			System.out.printf("%-10s : %s \n", key, map.get(key));
 		}
 		
