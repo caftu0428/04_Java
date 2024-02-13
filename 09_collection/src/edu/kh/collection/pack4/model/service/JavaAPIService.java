@@ -51,7 +51,7 @@ public class JavaAPIService {
 		
 		int num2 = wrap1.intValue(); // 정수 값 반환(추천 X)
 		
-		int num3 = wrap1; // 컴파일러가 Auto UnBoxing 수행 코드 추가
+		int num3 = wrap1; // 컴파일러가 Auto Unboxing 수행 코드 추가
 											// (Integer) wrap1 -> (int) wrap1에 저장된 값
 		long num4 = 10_000_000_000L; // 100억
 		Long wrap2 = num4; // Auto Boxing
