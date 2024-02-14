@@ -1,6 +1,6 @@
 package edu.kh.exception.pack2.run2;
 
-import edu.kh.exception.pack2.model.service.ExceptionHandlingService2;
+import edu.kh.exception.pack2.model.service2.ExceptionHandlingService2;
 
 public class ExceptionHandlingRun2 {
 	

@@ -1,4 +1,4 @@
-package edu.kh.exception.pack2.model.service;
+package edu.kh.exception.pack2.model.service2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
