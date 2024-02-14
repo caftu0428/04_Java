@@ -8,7 +8,10 @@ public static void main(String[] args) {
 	
 //	service.method1();
 //	service.method2();
-	service.method3();
+//	service.method3();
+//	service.method4();
+//	service.method5();
+	service.method6();
 	
 	
 }
