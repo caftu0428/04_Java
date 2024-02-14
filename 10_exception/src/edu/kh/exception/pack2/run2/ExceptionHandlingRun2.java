@@ -8,7 +8,8 @@ public class ExceptionHandlingRun2 {
 	
 		ExceptionHandlingService2 service = new ExceptionHandlingService2();
 		
-			service.method1();
+//			service.method1();
+			service.method2();
 		
 	}
 	
