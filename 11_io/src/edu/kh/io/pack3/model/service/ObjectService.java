@@ -53,9 +53,7 @@ public class ObjectService {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			
 		}
-		
 	}
 	
 	
@@ -95,10 +93,7 @@ public class ObjectService {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			
 		}
-		
-		
 	}
 	
 	
