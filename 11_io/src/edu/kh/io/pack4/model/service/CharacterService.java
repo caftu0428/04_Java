@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class CharacterService {
 
-	/* 문자 기반 스트림
+	/* 문자 기반 스트림 
 	 * 
 	 * - 2byte 문자(char) 단위로 입/출력 하는 스트림
 	 * 

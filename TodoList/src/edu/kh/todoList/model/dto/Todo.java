@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 // 스트림 입출력을 위한 직렬화
 public class Todo implements Serializable{
-
+	
 	private String title; // 할 일 제목
 	private String detail; // 상세 내용
 	private boolean complete; // 완료 여부
@@ -19,12 +19,12 @@ public class Todo implements Serializable{
 	// LocalDateTime.now() : 현재 시간 반환
 
 	// 날짜와 시간을 원하는 포맷으로 출력하기
-	// DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd
-	// HH:mm:ss");
+	// DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 	// String formattedDateTime = currentDateTime.format(formatter);
 	
-	// 기본 생성자 
-	public Todo() {
+	
+	// 기본 생성자
+	public Todo() {  
 		super();
 	}
 
@@ -75,9 +75,6 @@ public class Todo implements Serializable{
 	public String toString() {
 		return "Todo [title=" + title + ", detail=" + detail + ", complete=" + complete + ", regDate=" + regDate + "]";
 	}
-	
-	
-	
 	
 	
 }

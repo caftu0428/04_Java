@@ -6,17 +6,17 @@ import java.util.List;
 
 import edu.kh.todoList.model.dto.Todo;
 
-// DAO (Data Access Object) :
-// 데이터가 저장된 파일/DB/외부장치에 접근하는 역할
+// DAO (Data Access Object) : 
+//  데이터가 저장된 파일/DB/외부 장치에 접근하는 역할
 public interface TodoListDAO {
 
-//public abstract를 명시하지 않아도 public abstract으로 해석됨!!
+	// public abstract를 명시하지 않아도 public abstract으로 해석됨!!
 
 	/** TodoList를 파일로 저장하는 메서드
 	 * @throws FileNotFoundException
 	 * @throws IOException
 	 */
-	void saveFile() throws FileNotFoundException, IOException ;
+	void saveFile() throws FileNotFoundException, IOException;
 	
 	
 	
@@ -67,11 +67,10 @@ public interface TodoListDAO {
 
 	/** 할 일 삭제
 	 * @param index
-	 * @return 성공 시삭제된 할 일(Todo) 반환
-	 * 				인덱스 범위 초과로 실패 시 null 반환 
+	 * @return 성공 시 삭제된 할 일(Todo) 반환
+	 * 				 인덱스 범위 초과로 실패 시 null 반환 
 	 * @throws FileNotFoundException
 	 * @throws IOException
 	 */
 	Todo todoDelete(int index) throws FileNotFoundException, IOException;
-	
 }

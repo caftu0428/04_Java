@@ -5,20 +5,17 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-// Service
+// Service 
 // - 데이터 가공, 로직 처리 등의 기능을 제공하는 역할
 public interface TodoListService {
-
-	public abstract void method1();
 	
-	//ctrl + shift + o -> import 자동 추가
+	// ctrl + shift + o -> import 자동 추가
 	
 	/**  할 일 목록 반환 서비스
 	 * @return todoList + 완료 개수
 	 */ 
 	public abstract Map<String, Object> todoListFullView();
 
-	
 	
 	
 	/** 날짜 포맷을 변환해서 반환
@@ -78,6 +75,5 @@ public interface TodoListService {
 	 * @throws IOException
 	 */
 	public abstract String todoDelete(int index)  throws FileNotFoundException, IOException ;
-	
-	
+
 }
